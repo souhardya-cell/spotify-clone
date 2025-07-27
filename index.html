@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img src="./library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we will help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p  class="box-p2">We will keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./backward_icon.png">
+                    <img src="./forward_icon.png" class="hide">
+                </div>
+
+                <div class="sticky-nav-options">
+                     <button class="badge nav-item hide">Explore Premium</button>
+                     <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 0.5rem;"></i>Install App</button>
+                     <i class="fa-regular fa-user user-icon"></i>
+                </div>
+            </div>
+            
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                     <div class="card">
+                        <img src="./raina-beeti-jaye.jpeg" class="card-img">
+                        <p class="card-title">Raina Beeti Jaye</p>
+                        <p class="card-text">Song~Lata Mangeshkar</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./qaydese.jpeg" class="card-img">
+                        <p class="card-title">Qayde Se(From"Metro...In Dino")</p>
+                        <p class="card-text">2025~Pritam,Arijit Singh</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./in-dino.jpeg" class="card-img">
+                        <p class="card-title">In Dino</p>
+                        <p class="card-text">Song~Pritam,Soham</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./pakhider.jpeg" class="card-img">
+                        <p class="card-title">Pakhider Smriti</p>
+                        <p class="card-text">Song~Ikkshita Mukherjee</p>
+                    </div>
+
+
+                </div>
+
+                 <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./qaydese.jpeg" class="card-img">
+                        <p class="card-title">Qayde Se(From "Metro...In Dino")</p>
+                        <p class="card-text">2025~Pritam,Arijit Singh</p>
+                    </div>
+
+                     <div class="card">
+                        <img src="./gaanegaane.jpeg" class="card-img">
+                        <p class="card-title">Gaane Gaane(From "Dhumketu")</p>
+                        <p class="card-text">2025~Arijit Singh,Shreya Ghoshal,Anupam Roy</p>
+                    </div>
+
+                     <div class="card">
+                        <img src="./saiyaara.jpeg" class="card-img">
+                        <p class="card-title">Saiyaara(From "Saiyaara")</p>
+                        <p class="card-text">2025~Tanishk Bagchi</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./mausam.jpeg" class="card-img">
+                        <p class="card-title">Mausam</p>
+                        <p class="card-text">2025~Pritam,Arijit Singh</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./topsongs_global.jpeg" class="card-img">
+                        <p class="card-title">Top Songs-Global</p>
+                        <p class="card-text">By Spotify</p>
+                    </div>
+
+                        <div class="card">
+                           <img src="./topsongs_india.jpeg" class="card-img">
+                           <p class="card-title">Top 50-India</p>
+                           <p class="card-text">By Spotify</p>
+                        </div>
+                  
+                        <div class="card">
+                            <img src="./top50_global.jpeg" class="card-img">
+                            <p class="card-title">Top 50-Global</p>
+                            <p class="card-text">By Spotify</p>
+                        </div>
+                </div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./in-dino.jpeg" class="song">
+                <div class="song-info">
+                    <p class="song-title">In Dino</p>
+                    <p class="song-artist">Pritam,Soham</p>
+                </div>
+                <i class="fa-solid fa-circle-plus control-icon"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./player_icon1.png" class="player-control-icon">
+                    <img src="./player_icon2.png" class="player-control-icon">
+                    <img src="./player_icon3.png" class="player-control-icon" style="opacity: 1; height:2rem;">
+                    <img src="./player_icon4.png" class="player-control-icon">
+                    <img src="./player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">03:39</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="total-time">6:37</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-microphone control-icon"></i>
+                <i class="fa-solid fa-bars control-icon"></i>
+                <i class="fa-solid fa-desktop control-icon"></i>
+                <i class="fa-solid fa-volume-high control-icon"></i>
+                <input type="range" min="0" max="100" class="progress-bar2">
+                <i class="fa-solid fa-expand control-icon"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
